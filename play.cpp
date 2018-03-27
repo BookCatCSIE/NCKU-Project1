@@ -6,12 +6,12 @@ using namespace std;
 int main() {
     cout<<"1 3 C 4 6 7 8 5"<<endl;
     string line;
-	int a,b;
-	srand(time(NULL));
+    int a,b;
+    srand(time(NULL));
     while(getline(cin,line)) {
         if(line=="END") {
-            a=(rand()%14)+3;
-			b=(rand()%13)+12;
+            a=(rand()%14)+4;
+            b=(rand()%13)+12;
             cout<<"1 1 a b"<<endl;
             cout<<"1 3 a b"<<endl;
             cout<<"1 4 a b"<<endl;
