@@ -6,14 +6,14 @@ int main() {
     string line;
     while(getline(cin,line)) {
         if(line=="END") {
-            cout<<"1 1 9 12"<<endl;
-            cout<<"1 3 9 12"<<endl;
-            cout<<"1 4 9 12"<<endl;
-            cout<<"1 C 9 12"<<endl;
-            cout<<"1 5 9 12"<<endl;
-            cout<<"1 7 9 12"<<endl;
-            cout<<"1 8 9 12"<<endl;
-            cout<<"1 6 9 12"<<endl;
+            cout<<"1 1 10 10"<<endl;
+            cout<<"1 3 10 10"<<endl;
+            cout<<"1 4 10 10"<<endl;
+            cout<<"1 C 10 10"<<endl;
+            cout<<"1 5 10 10"<<endl;
+            cout<<"1 7 10 10"<<endl;
+            cout<<"1 8 10 10"<<endl;
+            cout<<"1 6 10 10"<<endl;
             cout<<"0"<<endl;
         }
     }
